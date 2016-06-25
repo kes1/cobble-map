@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-06-25T16:34:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/20888920",
+      "properties": {
+        "@id": "way/20888920",
+        "highway": "residential",
+        "name": "Morgan Street",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9539437,
+            56.4684403
+          ],
+          [
+            -2.9542428,
+            56.4693163
+          ],
+          [
+            -2.9544288,
+            56.4698612
+          ],
+          [
+            -2.9546606,
+            56.4705345
+          ],
+          [
+            -2.9549095,
+            56.471184
+          ],
+          [
+            -2.9551756,
+            56.4717149
+          ],
+          [
+            -2.9557914,
+            56.4730023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26450295",
+      "properties": {
+        "@id": "way/26450295",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Panmure Street",
+        "oneway": "yes",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9685101,
+            56.4635228
+          ],
+          [
+            -2.9689363,
+            56.4633817
+          ],
+          [
+            -2.9695301,
+            56.4632633
+          ],
+          [
+            -2.9703004,
+            56.4631479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/402365959",
+      "properties": {
+        "@id": "way/402365959",
+        "highway": "residential",
+        "name": "Baxter Park Terrace",
+        "source": "Yahoo tracing",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9522035,
+            56.4686284
+          ],
+          [
+            -2.9524203,
+            56.4690803
+          ],
+          [
+            -2.9518149,
+            56.4691714
+          ],
+          [
+            -2.9517425,
+            56.4692099
+          ],
+          [
+            -2.9517371,
+            56.4693166
+          ],
+          [
+            -2.9518737,
+            56.4695902
+          ]
+        ]
+      }
+    }
+  ]
+}
