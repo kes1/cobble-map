@@ -12,6 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+      <style>     #map { height:400px;width:100%; }</style> 
   </head>
   <body>
     <section class="page-header">
@@ -25,16 +26,23 @@
     <section class="main-content">
       <h3>
 <a id="cobble-map" class="anchor" href="#cobble-map" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cobble Map</h3>
-
 <p>A Dundee Cyclehack project. Map where the cobbled streets to help cyclists unfamiliar with an area plan their route.</p>
-
-<h3>
+<div id="map"></div>
+<h3>    
 <a id="background" class="anchor" href="#background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Background</h3>
 
 <p>In Scotland many towns and cities still retain their old cobbled road surfaces, these are great to look at and keep the character of the place but can be pretty tricky on a bike - especially when it's wet.  </p>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="fr" dir="ltr"><a href="https://twitter.com/hashtag/ICYMI?src=hash">#ICYMI</a>: Cancellara chute et Sagan l&#39;évite de justesse / Cancellara crashed &amp; Sagan managed to avoid him<a href="https://t.co/nAaK1HhS7c">https://t.co/nAaK1HhS7c</a></p>&mdash; Paris-Roubaix (@Paris_Roubaix) <a href="https://twitter.com/Paris_Roubaix/status/719163450518155266">April 10, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div id="map"></div>
+<h3>    
+<a id="data" class="anchor" href="#background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating the Data</h3>
+<p>OSM</p>
+<h3>    
+<a id="map-section" class="anchor" href="#background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making a Map</h3>    
+<p></p>        
+        <h3>    
+<a id="routing" class="anchor" href="#background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Taking it further</h3>    
+<p>
+        <ul><li>Journey Planners</li></ul>
+        </p>        
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/kes1/cobble-map">Cobble-map</a> is maintained by <a href="https://github.com/kes1">kes1</a>.</span>
 
@@ -48,8 +56,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia2VzdGVydG9uIiwiYSI6ImY2MWU0MDVmMzVkNGNmNDU1N
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/kesterton/cipvd1bna0046dmm5pap1jjk7',
-    zoom: 13,
-    center: [4.899, 52.372]
+    zoom: 16,
+    center: [-2.9522,56.4700]
 });
       </script>
   </body>
