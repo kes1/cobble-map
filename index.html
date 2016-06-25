@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>Cobble-map by kes1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <!-- Mapbox --> 
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.css' rel='stylesheet' />
+      <!-- /mapbox --> 
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
@@ -30,7 +34,7 @@
 <p>In Scotland many towns and cities still retain their old cobbled road surfaces, these are great to look at and keep the character of the place but can be pretty tricky on a bike - especially when it's wet.  </p>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="fr" dir="ltr"><a href="https://twitter.com/hashtag/ICYMI?src=hash">#ICYMI</a>: Cancellara chute et Sagan l&#39;évite de justesse / Cancellara crashed &amp; Sagan managed to avoid him<a href="https://t.co/nAaK1HhS7c">https://t.co/nAaK1HhS7c</a></p>&mdash; Paris-Roubaix (@Paris_Roubaix) <a href="https://twitter.com/Paris_Roubaix/status/719163450518155266">April 10, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<div id="map"></div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/kes1/cobble-map">Cobble-map</a> is maintained by <a href="https://github.com/kes1">kes1</a>.</span>
 
@@ -38,7 +42,15 @@
       </footer>
 
     </section>
-
+<!-- Mapbox Code -->       
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2VzdGVydG9uIiwiYSI6ImY2MWU0MDVmMzVkNGNmNDU1NGRkNmYwMGY0MDRhMjMxIn0.3zGYN7QpSfnKLaWyNRmvkg';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/kesterton/cipvd1bna0046dmm5pap1jjk7',
+    zoom: 13,
+    center: [4.899, 52.372]
+});
   
   </body>
 </html>
