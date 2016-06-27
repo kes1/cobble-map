@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2016-06-25T16:34:02Z",
+  "timestamp": "2016-06-27T19:51:02Z",
   "features": [
     {
       "type": "Feature",
@@ -50,11 +50,612 @@
     },
     {
       "type": "Feature",
+      "id": "way/20892347",
+      "properties": {
+        "@id": "way/20892347",
+        "highway": "unclassified",
+        "name": "Castle Street",
+        "oneway": "yes",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.969187,
+            56.4610008
+          ],
+          [
+            -2.9683186,
+            56.4605436
+          ],
+          [
+            -2.9676712,
+            56.4602028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/20895894",
+      "properties": {
+        "@id": "way/20895894",
+        "highway": "residential",
+        "name": "St Roque's Lane",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9630167,
+            56.464635
+          ],
+          [
+            -2.9633293,
+            56.4649963
+          ],
+          [
+            -2.9633635,
+            56.4657849
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/21141822",
+      "properties": {
+        "@id": "way/21141822",
+        "highway": "residential",
+        "name": "Graham Place",
+        "source": "Yahoo Aerial Imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9570475,
+            56.4672319
+          ],
+          [
+            -2.9579623,
+            56.4673836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23558766",
+      "properties": {
+        "@id": "way/23558766",
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "name": "Cowgate",
+        "oneway": "yes",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9675659,
+            56.4639279
+          ],
+          [
+            -2.9685101,
+            56.4635228
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23561075",
+      "properties": {
+        "@id": "way/23561075",
+        "highway": "unclassified",
+        "maxspeed": "30 mph",
+        "name": "Exchange Street",
+        "oneway": "yes",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9676712,
+            56.4602028
+          ],
+          [
+            -2.9671538,
+            56.4605989
+          ],
+          [
+            -2.9666612,
+            56.460976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23561617",
+      "properties": {
+        "@id": "way/23561617",
+        "highway": "unclassified",
+        "name": "High Street",
+        "oneway": "yes",
+        "source": "Yahoo Aerial Imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9681348,
+            56.4614404
+          ],
+          [
+            -2.9688665,
+            56.4612101
+          ],
+          [
+            -2.9690846,
+            56.4610828
+          ],
+          [
+            -2.969187,
+            56.4610008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23563066",
+      "properties": {
+        "@id": "way/23563066",
+        "highway": "pedestrian",
+        "name": "High Street",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9704271,
+            56.460163
+          ],
+          [
+            -2.9703516,
+            56.4602646
+          ],
+          [
+            -2.970219,
+            56.4603441
+          ],
+          [
+            -2.9700258,
+            56.460467
+          ],
+          [
+            -2.9697033,
+            56.4606722
+          ],
+          [
+            -2.9695585,
+            56.4607644
+          ],
+          [
+            -2.969187,
+            56.4610008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23952403",
+      "properties": {
+        "@id": "way/23952403",
+        "highway": "residential",
+        "name": "Constable Street",
+        "source": "Yahoo tracing",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9633293,
+            56.4649963
+          ],
+          [
+            -2.9629736,
+            56.4650476
+          ],
+          [
+            -2.962651,
+            56.465149
+          ],
+          [
+            -2.9623266,
+            56.4652799
+          ],
+          [
+            -2.9620248,
+            56.4653887
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25601031",
+      "properties": {
+        "@id": "way/25601031",
+        "highway": "residential",
+        "name": "Brown Constable Street",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9610732,
+            56.4676697
+          ],
+          [
+            -2.9609468,
+            56.4673159
+          ],
+          [
+            -2.9608146,
+            56.4670307
+          ],
+          [
+            -2.9609005,
+            56.46686
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/25914776",
+      "properties": {
+        "@id": "way/25914776",
+        "highway": "service",
+        "name": "Candle Lane",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9643367,
+            56.4616786
+          ],
+          [
+            -2.9651728,
+            56.4619009
+          ],
+          [
+            -2.9661339,
+            56.4621565
+          ],
+          [
+            -2.9666694,
+            56.4622991
+          ],
+          [
+            -2.9673921,
+            56.4624916
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26435870",
+      "properties": {
+        "@id": "way/26435870",
+        "highway": "residential",
+        "name": "Robertson Street",
+        "source": "Yahoo Aerial Imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.955906,
+            56.4670707
+          ],
+          [
+            -2.9570132,
+            56.4670564
+          ],
+          [
+            -2.9570475,
+            56.4672319
+          ],
+          [
+            -2.9570614,
+            56.467891
+          ],
+          [
+            -2.9570659,
+            56.4681028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26435939",
+      "properties": {
+        "@id": "way/26435939",
+        "highway": "unclassified",
+        "name": "Foundry Lane",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9571834,
+            56.465518
+          ],
+          [
+            -2.9589411,
+            56.4652818
+          ],
+          [
+            -2.9622619,
+            56.4647095
+          ],
+          [
+            -2.9625544,
+            56.4646885
+          ],
+          [
+            -2.9628407,
+            56.4646905
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26436150",
+      "properties": {
+        "@id": "way/26436150",
+        "highway": "residential",
+        "name": "Crescent Street",
+        "source": "Yahoo aerial imagery;Yahoo tracing",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9593194,
+            56.4678592
+          ],
+          [
+            -2.9593641,
+            56.4676186
+          ],
+          [
+            -2.9594843,
+            56.46741
+          ],
+          [
+            -2.9595416,
+            56.4673456
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26436155",
+      "properties": {
+        "@id": "way/26436155",
+        "highway": "residential",
+        "name": "Crescent Street",
+        "source": "Yahoo aerial imagery;Yahoo tracing",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9596532,
+            56.4672508
+          ],
+          [
+            -2.9599306,
+            56.4670876
+          ],
+          [
+            -2.9604541,
+            56.4669264
+          ],
+          [
+            -2.9609005,
+            56.46686
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26436191",
+      "properties": {
+        "@id": "way/26436191",
+        "highway": "residential",
+        "name": "Crescent Street",
+        "source": "Yahoo aerial imagery;Yahoo tracing",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9609005,
+            56.46686
+          ],
+          [
+            -2.9611837,
+            56.4666703
+          ],
+          [
+            -2.9613468,
+            56.4664665
+          ],
+          [
+            -2.9614155,
+            56.4663005
+          ],
+          [
+            -2.9614155,
+            56.4660871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26449959",
+      "properties": {
+        "@id": "way/26449959",
+        "highway": "service",
+        "name": "Mary Ann Lane",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9634415,
+            56.4620876
+          ],
+          [
+            -2.9636857,
+            56.4622469
+          ],
+          [
+            -2.964072,
+            56.4624983
+          ],
+          [
+            -2.9644411,
+            56.462797
+          ],
+          [
+            -2.9648445,
+            56.4631716
+          ],
+          [
+            -2.9653584,
+            56.4636948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26450164",
+      "properties": {
+        "@id": "way/26450164",
+        "highway": "unclassified",
+        "name": "Queen Street",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9650353,
+            56.4637987
+          ],
+          [
+            -2.9653563,
+            56.4640786
+          ],
+          [
+            -2.9657284,
+            56.4644035
+          ],
+          [
+            -2.9658399,
+            56.4644462
+          ],
+          [
+            -2.9659488,
+            56.4644662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26450170",
+      "properties": {
+        "@id": "way/26450170",
+        "highway": "unclassified",
+        "name": "Cowgate",
+        "oneway": "yes",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9659488,
+            56.4644662
+          ],
+          [
+            -2.9660374,
+            56.4644557
+          ],
+          [
+            -2.966481,
+            56.4643144
+          ],
+          [
+            -2.9673162,
+            56.4640526
+          ],
+          [
+            -2.9675659,
+            56.4639279
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/26450295",
       "properties": {
         "@id": "way/26450295",
         "bicycle": "yes",
         "highway": "pedestrian",
+        "lit": "no",
         "name": "Panmure Street",
         "oneway": "yes",
         "source": "Yahoo aerial imagery",
@@ -78,6 +679,163 @@
           [
             -2.9703004,
             56.4631479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26456290",
+      "properties": {
+        "@id": "way/26456290",
+        "highway": "unclassified",
+        "name": "Euclid Crescent",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9741799,
+            56.4629947
+          ],
+          [
+            -2.9738409,
+            56.4627041
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27243716",
+      "properties": {
+        "@id": "way/27243716",
+        "highway": "residential",
+        "name": "Kemback Street",
+        "source": "Yahoo aerial imagery",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9563562,
+            56.4703763
+          ],
+          [
+            -2.9560596,
+            56.4696668
+          ],
+          [
+            -2.9558024,
+            56.4689914
+          ],
+          [
+            -2.9555362,
+            56.4682681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/120023401",
+      "properties": {
+        "@id": "way/120023401",
+        "highway": "residential",
+        "name": "Crescent Lane",
+        "source": "bing",
+        "source:name": "OS_OpenData_StreetView",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9586538,
+            56.4678603
+          ],
+          [
+            -2.958745,
+            56.4676203
+          ],
+          [
+            -2.9588563,
+            56.4674134
+          ],
+          [
+            -2.9589545,
+            56.4673065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/125202074",
+      "properties": {
+        "@id": "way/125202074",
+        "highway": "residential",
+        "name": "Crescent Lane",
+        "source": "bing",
+        "source:name": "OS_OpenData_StreetView",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9608696,
+            56.466367
+          ],
+          [
+            -2.9609052,
+            56.4664595
+          ],
+          [
+            -2.9607666,
+            56.4665348
+          ],
+          [
+            -2.9598643,
+            56.4667233
+          ],
+          [
+            -2.9593499,
+            56.4669571
+          ],
+          [
+            -2.9589545,
+            56.4673065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/272242448",
+      "properties": {
+        "@id": "way/272242448",
+        "highway": "service",
+        "service": "Meadow Entry",
+        "source": "estimate",
+        "surface": "sett"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.9697232,
+            56.462309
+          ],
+          [
+            -2.9696515,
+            56.4623282
+          ],
+          [
+            -2.9691238,
+            56.4622347
           ]
         ]
       }
