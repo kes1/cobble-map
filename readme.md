@@ -1,6 +1,6 @@
 ## Cobbles Map
 
-(https://kes1.github.io/cobble-map/)[View the homepage for more information]
+[View the homepage for more information](https://kes1.github.io/cobble-map/)
 
 ### This repository contains some resources for mapping cobbled streets to help cyclists when planning their journeys. 
 
